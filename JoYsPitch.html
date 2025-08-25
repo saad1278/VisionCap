@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vision Cap — حقيبة العرض السريع (T-71)</title>
+<style>
+  :root{--bg:#0b1020;--bg2:#0f1731;--card:#121b36;--ink:#eaf1ff;--muted:#a5b5d6;--acc:#22c55e;--acc2:#38bdf8;}
+  *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,var(--bg),#0b1226 60%,#0a0f20);color:var(--ink);
+  font-family:"Cairo","Noto Kufi Arabic","Segoe UI",Roboto,system-ui,Tahoma,sans-serif}
+  header{position:sticky;top:0;z-index:10;backdrop-filter:blur(6px);background:rgba(0,0,0,.35);border-bottom:1px solid rgba(255,255,255,.06)}
+  .wrap{max-width:1050px;margin:auto;padding:18px 16px}
+  .hero{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:16px 0}
+  h1{margin:0;font-size:28px;letter-spacing:.2px;display:flex;align-items:center;gap:10px}
+  .tag{color:var(--muted);font-weight:600;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);padding:6px 10px;border-radius:999px;display:inline-flex;align-items:center;gap:8px}
+  .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}@media (max-width: 980px){ .grid{grid-template-columns:1fr} }
+  .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden;box-shadow: 0 12px 32px rgba(0,0,0,.35)}
+  .card h2{margin:0;font-size:18px;padding:12px 14px;border-bottom:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.01))}
+  .section{padding:14px 16px}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .pill{background:#0f1731;border:1px solid rgba(255,255,255,.08);padding:8px 12px;border-radius:999px}
+  .list{display:grid;gap:10px}.item{background:rgba(255,255,255,.04);border:1px dashed rgba(255,255,255,.12);border-radius:12px;padding:10px 12px}
+  .muted{color:var(--muted)}.badge{display:inline-block;background:rgba(34,197,94,.14);border:1px solid rgba(34,197,94,.35);color:#bff3ce;padding:2px 8px;border-radius:8px;font-size:12px;margin-inline-start:6px}
+  .warn{background:rgba(245,158,11,.16);border-color:rgba(245,158,11,.35);color:#ffe6b4}.kbd{font-family:ui-monospace,Consolas,monospace;background:#0e1429;border:1px solid rgba(255,255,255,.12);padding:2px 6px;border-radius:6px}
+  .cols{columns:2;column-gap:14px}@media (max-width:760px){.cols{columns:1}}
+  .svgbox{background:linear-gradient(180deg,#0f152b,#0b1226); padding:8px;border-top:1px solid rgba(255,255,255,.06)}
+  .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}a.btn{color:var(--ink);text-decoration:none;background:linear-gradient(90deg,var(--acc),#16a34a);padding:10px 14px;border-radius:12px;font-weight:700;border:1px solid rgba(255,255,255,.12)}
+  a.ghost{background:#0e152b}footer{color:var(--muted);text-align:center;padding:20px 10px}ul{margin:8px 0 0 0;padding-inline-start:18px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hero">
+    <h1>🧢 Vision Cap — القُبّعة الذكية <span class="badge">T-71</span></h1>
+    <div class="row">
+      <span class="tag">الفئة: التكنولوجيا</span><span class="tag">المركز: Zarqa</span><span class="tag">الفريق: Vision Cap</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap grid">
+  <div class="card">
+    <h2>خُلاصة 60 ثانية</h2>
+    <div class="section">
+      <div class="list">
+        <div class="item"><b>المشكلة:</b> الشخص الكفيف يحتاج وصف فوري للمشهد حوله في الصف والبيت.</div>
+        <div class="item"><b>الحل:</b> كاميرا + ذكاء اصطناعي على اللابتوب يعلن بصوت عربي: <i>شخص، كرسي، كوب…</i> وإذا حفظنا وجه معيّن — بننطق اسمه.</div>
+        <div class="item"><b>الميّزات:</b> يعمل بدون إنترنت، خصوصية أعلى، تسمية مخصّصة للأغراض، تتبّع ذكي يقلّل التكرار.</div>
+      </div>
+      <div class="cta">
+        <a class="btn" href="#script">نَص العرض (7 دقائق)</a><a class="btn ghost" href="#hardware">تصور العتاد Hardware</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>خطّة الديمو السريعة</h2>
+    <div class="section cols">
+      <ol>
+        <li>بدء الكاميرا → يظهر إطار أحمر حول الغرض وينطق اسمه.</li>
+        <li>انقر على الإطار → <span class="kbd">🛒 حفظ منتج</span> → اكتب: <b>دفتر العربي</b>.</li>
+        <li>رجّع الغرض أمام الكاميرا → يسمّيه بالاسم المخصّص.</li>
+        <li>شخص جديد يظهر: أول مرة <i>غير معروف</i> → انقر → <span class="kbd">حفظ وجه</span> → أدخل الاسم → جرّب ثانية.</li>
+        <li>حرّك سلايدر <i>تأخير الإعلان</i> لتبيّن قلّة التكرار المزعج.</li>
+      </ol>
+      <ul>
+        <li><b>خصوصية:</b> كل شيء محلي على الجهاز.</li>
+        <li><b>سهولة:</b> واجهة عربية عالية التباين، وأسماء محفوظة محليًا.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" id="script">
+    <h2>تقسيم الكلام (7 دقائق)</h2>
+    <div class="section">
+      <div class="item"><b>سعد — 0:00 → 1:40</b><br/>أهلين، إحنا فريق Vision Cap. فكرتنا نخلي البيئة حوالين الكفيف تُحكى بصوت. اليوم إذا بدّه يعرف مين قدامه أو شو الغرض على الطاولة لازم حدا يوصف. إحنا نقلّل الاعتماد: قبعة/كاميرا بتحكي له <i>شخص، كرسي، دفتر…</i> وإذا خزّنا وجه بتذكر اسمه. كله محلي وبدون إنترنت.</div>
+      <div class="item"><b>شحرور — 1:40 → 5:00 (الشرح + الديمو)</b><br/>بنشتغل بالمتصفح: نموذج COCO‑SSD لثمانين غرض شائع، وface‑api لحفظ الوجوه محليًا. في تتبّع ذكي: ما منعيد الإعلان إلا بعد مهلة. وفي تسمية مخصّصة: أي غرض خارج القائمة بنحفظ اسمه وبنرجع نناديه فيه. (نفّذ خطوات الديمو).</div>
+      <div class="item"><b>رؤوف — 5:00 → 7:00</b><br/>الأثر: استقلالية أعلى للطالب الكفيف. تميّزنا: أوفلاين + تسمية مخصّصة + تتبّع ذكي. التكلفة منخفضة. خارطة الطريق: أوامر صوتية عربية لحفظ الأسماء، دعم YOLO، وهزاز اتجاه. تفضّلوا جرّبوه.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>سؤال محوري: كيف الكفيف يضيف بيانات وهو فقط يسمع؟</h2>
+    <div class="section list">
+      <div class="item"><b>1) زر واحد + صوت:</b> يضغط Enter → النظام يسأل: «احكي اسم الغرض» → المستخدم يحكي → النظام يأكد ويخزّن.</div>
+      <div class="item"><b>2) اختصارات:</b> <span class="kbd">Ctrl+1</span> حفظ وجه، <span class="kbd">Ctrl+2</span> حفظ منتج، ثم إدخال صوتي.</div>
+      <div class="item"><b>3) استيراد جاهز:</b> أسماء أساسية مُسبقة.</div>
+      <div class="item"><b>4) مساعدة مرّة واحدة:</b> بالبداية فقط، بعدها يعتمد على الأوامر الصوتية.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>أسئلة شائعة & نقاط تحكيم</h2>
+    <div class="section cols">
+      <ul>
+        <li><b>ليش بدون إنترنت؟</b> للخصوصية والسرعة.</li>
+        <li><b>كم فئة؟</b> 80 فئة + أسماء مخصّصة.</li>
+        <li><b>الدقة؟</b> مناسبة للبيت/الصف، ونوسّع بـ YOLO عند الحاجة.</li>
+        <li><b>التكلفة؟</b> لابتوب + كاميرا عادية.</li>
+        <li><b>الخصوصية؟</b> تخزين محلي للوجوه والأسماء.</li>
+      </ul>
+      <ul>
+        <li>تميّز: أوفلاين + تسمية مخصّصة + تتبّع ذكي.</li>
+        <li>UX للكفيف: صوت + اختصارات + لاحقًا أوامر صوتية وهزاز.</li>
+        <li>قابلية تحويل لقبّعة مستقلة مستقبلًا.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" id="hardware">
+    <h2>تصوّر العتاد Hardware (مرحلتان)</h2>
+    <div class="section">
+      <div class="row">
+        <span class="pill">المرحلة 1: لابتوب + كاميرا USB + سماعة</span>
+        <span class="pill">المرحلة 2: قبّعة بكمرة صغيرة + SBC + بطارية + سماعة توصيل عظمي + هزاز اتجاه</span>
+      </div>
+    </div>
+    <div class="svgbox">
+      <svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg" aria-label="Vision Cap Hardware Concept">
+        <defs>
+          <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#1f294a"/><stop offset="1" stop-color="#111a35"/></linearGradient>
+          <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#16a34a"/></linearGradient>
+          <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="960" height="420" fill="url(#g1)" rx="16"/>
+        <path d="M120 210 C 200 160, 360 140, 520 160 C 580 168, 640 188, 700 220 L 700 260 L 520 260 L 140 260 Z"
+              fill="#0f1731" stroke="#26355f" stroke-width="2"/>
+        <rect x="120" y="255" width="640" height="22" rx="11" fill="#0d142b" stroke="#26355f" stroke-width="2"/>
+        <rect x="300" y="240" width="80" height="34" rx="6" fill="#1a2244" stroke="#4b5d8f"/>
+        <circle cx="338" cy="257" r="8" fill="url(#g3)" stroke="#7fc4ff"/>
+        <text x="340" y="230" fill="#cfe8ff" font-size="14" text-anchor="middle">كاميرا</text>
+        <rect x="640" y="190" width="80" height="50" rx="8" fill="#14204a" stroke="#4b5d8f"/>
+        <text x="680" y="180" fill="#d2ffea" font-size="14" text-anchor="middle">SBC</text>
+        <text x="680" y="198" fill="#b7d9ff" font-size="12" text-anchor="middle">Raspberry Pi</text>
+        <rect x="560" y="190" width="56" height="34" rx="6" fill="#1b2a59" stroke="#4b5d8f"/>
+        <rect x="612" y="202" width="8" height="10" rx="2" fill="#1b2a59" stroke="#4b5d8f"/>
+        <text x="588" y="182" fill="#ffe6b4" font-size="12" text-anchor="middle">بطارية</text>
+        <circle cx="760" cy="240" r="16" fill="#132045" stroke="#4b5d8f"/>
+        <path d="M760 240 q 30 -40 64 -12" stroke="url(#g2)" stroke-width="6" fill="none"/>
+        <text x="820" y="220" fill="#d2ffea" font-size="14" text-anchor="middle">سماعة توصيل عظمي</text>
+        <circle cx="200" cy="240" r="10" fill="#132045" stroke="#4b5d8f"/>
+        <circle cx="230" cy="240" r="10" fill="#132045" stroke="#4b5d8f"/>
+        <text x="215" y="220" fill="#cfe8ff" font-size="12" text-anchor="middle">هزاز اتجاه</text>
+        <rect x="70" y="70" width="200" height="120" rx="10" fill="#0f1731" stroke="#4b5d8f"/>
+        <rect x="70" y="180" width="200" height="14" rx="3" fill="#101a36" stroke="#4b5d8f"/>
+        <text x="170" y="60" fill="#b7d9ff" font-size="14" text-anchor="middle">المرحلة 1: لابتوب</text>
+        <path d="M340 240 L 340 190 L 170 190" stroke="#22c55e" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+        <path d="M680 240 L 680 300 L 760 300" stroke="#22c55e" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+        <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L9,3 z" fill="#22c55e"/></marker></defs>
+        <text x="340" y="290" fill="#9fd5ff" font-size="12" text-anchor="middle">يعمل الآن</text>
+        <text x="680" y="315" fill="#bff3ce" font-size="12" text-anchor="middle">تصوّر مستقبلي</text>
+      </svg>
+    </div>
+    <div class="section"><a class="btn" href="visioncap_hardware_concept.svg" download>تنزيل صورة العتاد (SVG)</a></div>
+  </div>
+</div>
+
+<footer>T‑71 — Vision Cap • إعداد: سعد، شحرور، رؤوف • هذا الملف يصلح للطباعة والقراءة على الهاتف</footer>
+</body>
+</html>
